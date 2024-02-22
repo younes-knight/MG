@@ -1,0 +1,134 @@
+:root{
+    --royal_blue:#4169E1;
+    --light_royal_blue:rgb(91, 126, 232);
+    --menu_color: #222222;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1.04fr 1fr;
+}
+.home-sentences-container{
+    justify-self: center;
+    align-self: center;
+    margin: 0 0 0 1em;
+}
+.home-sentence1{
+    color: #ffa500;
+    font-size: 1.5em;
+}
+.home-sentence2{
+    color: white;
+    font-size: 3em;
+    margin: 0 0 0.5em 0;
+}
+.home-sentence3{
+    color: rgb(234, 227, 227);
+    width: 25em;
+    margin: 0 0 1em 0;
+}
+.home-sentence4{
+    color: rgb(234, 227, 227);
+    width: 27em;
+}
+.home-services{
+    height: 3em;
+    width: 11em;
+    color: white;
+    font-size: 1em;
+    background-color: var(--light_royal_blue);
+    border-width: 0;
+    border-radius: 2.5em;
+    margin: 2em 0 0 0;
+}
+.home-services:hover{
+    cursor: pointer;
+}
+.home-image{
+    height: 15em;
+    justify-self: center;
+    align-self: center;
+}
+
+
+@media only screen and (max-width : 1000px) and (min-width : 700px){
+    .home{
+        grid-template-columns: 1fr ;
+    }
+}
+@media only screen and (max-width : 699px) and (min-width : 450px){
+    .home{
+        height: 130vh;
+        grid-template-columns: 1fr ;
+    }
+}
+@media only screen and (max-width : 449px) and (min-width : 360px){
+    .home{
+        height: 55em;
+        grid-template-columns: 1fr ;
+    }
+    .home-sentences-container{
+        justify-self: center;
+        align-self: center;
+    }
+    .home-sentence1{
+        color: #ffa500;
+        font-size: 1.2em;
+    }
+    .home-sentence2{
+        color: white;
+        font-size: 2.2em;
+        margin: 0 0 0.5em 0;
+    }
+    .home-sentence3{
+        color: rgb(234, 227, 227);
+        width: 17em;
+        margin: 0 0 1em 0;
+    }
+    .home-sentence4{
+        color: rgb(234, 227, 227);
+        width: 19em;
+    }
+    .home-image{
+        height: 13em;
+        justify-self: center;
+        align-self: center;
+    }
+}
+@media only screen and (max-width : 359px){
+    .home{
+        height: 55em;
+        grid-template-columns: 1fr ;
+    }
+    .home-sentences-container{
+        justify-self: center;
+        align-self: center;
+        margin: 0 0 0 0;
+    }
+    .home-sentence1{
+        color: #ffa500;
+        font-size: 1.2em;
+    }
+    .home-sentence2{
+        color: white;
+        font-size: 1.8em;
+        margin: 0 0 0.5em 0;
+    }
+    .home-sentence3{
+        color: rgb(234, 227, 227);
+        width: 13em;
+        margin: 0 0 1em 0;
+    }
+    .home-sentence4{
+        color: rgb(234, 227, 227);
+        width: 17em;
+    }
+    .home-image{
+        height: 12em;
+        justify-self: center;
+        align-self: center;
+    }
+}

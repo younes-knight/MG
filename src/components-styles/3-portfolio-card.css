@@ -1,0 +1,65 @@
+:root{
+    --royal_blue:#4169E1;
+    --light_royal_blue:rgb(91, 126, 232);
+    --menu_color: #222222;
+}
+.portfolio-card{
+    justify-self: center;
+    opacity: 0.5;
+    transform: translateX(-100%);
+    filter: blur(0.1em);
+    transition: 1s;
+}
+.portfolio-card1{
+    justify-self: center;
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+}
+.portfolio-card:hover{
+    cursor: pointer;
+}
+.portfolio-card-image{
+    height: 15em;
+    border-radius: 1em;
+}
+.portfolio-card-title{
+    color: white;
+    font-size: 1.5em;
+    margin: 0.2em 0 0.2em 0;
+}
+.portfolio-card-sub-title{
+    color: rgb(188, 187, 187);
+}
+
+@media only screen and (max-width : 1000px) and (min-width : 700px){
+    
+}
+@media only screen and (max-width : 699px) and (min-width : 450px){
+    .portfolio-card-title{
+        text-align: center;
+    }
+    .portfolio-card-sub-title{
+        text-align: center;
+    }
+}
+@media only screen and (max-width : 449px) and (min-width : 360px){
+    .portfolio-card-title{
+        text-align: center;
+    }
+    .portfolio-card-sub-title{
+        text-align: center;
+    }
+}
+@media only screen and (max-width : 359px){
+    .portfolio-card-title{
+        text-align: center;
+    }
+    .portfolio-card-sub-title{
+        text-align: center;
+    }
+    .portfolio-card-image{
+        height: 13em;
+        border-radius: 1em;
+    }
+}

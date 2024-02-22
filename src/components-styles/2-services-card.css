@@ -1,0 +1,75 @@
+:root{
+    --royal_blue:#4169E1;
+    --light_royal_blue:rgb(91, 126, 232);
+    --menu_color: #222222;
+}
+
+.services-card{
+    height: 13em;
+    width: 55%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border-radius: 1.5em;
+    justify-self: center;
+    align-self: center;
+    opacity: 0.5;
+    filter: blur(0.1em);
+    transform: translateX(-100%);
+    transition: 1s;
+}
+.services-card1{
+    height: 13em;
+    width: 55%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border-radius: 1.5em;
+    justify-self: center;
+    align-self: center;
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.services-card:hover{
+    transform: scale(1.05);
+    background-color: var(--menu_color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.services-card-title{
+    color: white;
+    font-size: 1.5em;
+    margin: 0 0 0 0.6em;
+}
+.services-card-description{
+    width: 80%;
+    color: rgb(188, 187, 187);
+    font-size: 1em;
+    margin: 0 0 0 0.9em;
+}
+
+@media only screen and (max-width : 1050px) and (min-width : 700px){
+    .services-card{
+        width: 90%;
+    }
+}
+@media only screen and (max-width : 699px) and (min-width : 450px){
+    .services-card{
+        width: 100%;
+    }
+}
+@media only screen and (max-width : 449px) and (min-width : 360px){
+    .services-card{
+        width: 80%;
+    }
+}
+@media only screen and (max-width : 359px){
+    .services-card{
+        width: 80%;
+    }
+}

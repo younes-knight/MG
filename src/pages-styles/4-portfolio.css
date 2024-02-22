@@ -1,0 +1,200 @@
+:root{
+    --royal_blue:#4169E1;
+    --light_royal_blue:rgb(91, 126, 232);
+    --menu_color: #222222;
+}
+.portfolio{
+    height: 180vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.portfolio-title{
+    color: white;
+    font-size: 2.3em;
+    margin: 0.9em 0 0 0;
+    opacity: 0.5;
+    transform: translateX(-100%);
+    filter: blur(0.1em);
+    transition: 1s;
+}
+.portfolio-title1{
+    color: white;
+    font-size: 2.3em;
+    margin: 0.9em 0 0 0;
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+}
+.portfolio-header{
+    height: 7em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    opacity: 0.5;
+    transform: translateX(-50%);
+    filter: blur(0.1em);
+    transition: 1s;
+}
+.portfolio-header1{
+    height: 7em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+}
+.portfolio-sub-title1{
+    color: orange;
+    justify-self: center;
+    margin: 0 14em 0 0;
+}
+.portfolio-sub-title2{
+    color: white;
+    font-size: 2.3em;
+    width: 8em;
+    grid-row: 2/3;
+    justify-self: center;
+}
+.portfoio-tabs-buttons-container{
+    height: 2em;
+    width: 15em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: end;
+}
+.portfoio-tabs-buttons{
+    color: rgb(188, 187, 187);
+    font-size: 1em;
+    background-color: black;
+    padding: 0 0 0.2em 0;
+    border: 0 solid  rgb(188, 187, 187);
+}
+.portfoio-tabs-buttons:hover{
+    cursor: pointer;
+    border-bottom-width: 1px;
+}
+.portfolio-work-container{
+    width: 93%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2em;
+}
+@media only screen and (max-width : 1000px) and (min-width : 700px){
+    .portfolio{
+        height: 110vh;
+    }
+}
+@media only screen and (max-width : 699px) and (min-width : 450px){
+    .portfolio{
+        height: 120em;
+    }
+    .portfolio-header{
+        height: 15em;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 2fr 3fr;
+    }
+    .portfolio-sub-title1{
+        margin: 0 0 0 2em;
+        justify-self: start;
+    }
+    .portfolio-sub-title2{
+        margin: 0 0 0 0.8em;
+        justify-self: start;
+    }
+    .portfoio-tabs-buttons-container{
+        height: 3em;
+        width: 100%;
+        justify-content: space-evenly;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .portfolio-work-container{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 2em;
+    }
+}
+@media only screen and (max-width : 449px) and (min-width : 360px){
+    .portfolio{
+        height: 120em;
+    }
+    .portfolio-header{
+        height: 15em;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 2fr 3fr;
+    }
+    .portfolio-sub-title1{
+        margin: 0 0 0 2em;
+        justify-self: start;
+    }
+    .portfolio-sub-title2{
+        margin: 0 0 0 0.8em;
+        justify-self: start;
+    }
+    .portfoio-tabs-buttons-container{
+        height: 3em;
+        width: 100%;
+        justify-content: space-evenly;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .portfolio-work-container{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 2em;
+    }
+}
+@media only screen and (max-width : 359px){
+    .portfolio{
+        height: 120em;
+    }
+    .portfolio-header{
+        height: 15em;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 2fr 3fr;
+    }
+    .portfolio-sub-title1{
+        margin: 0 0 0 1.5em;
+        justify-self: start;
+    }
+    .portfolio-sub-title2{
+        margin: 0 0 0 0.6em;
+        justify-self: start;
+    }
+    .portfoio-tabs-buttons-container{
+        height: 3em;
+        width: 100%;
+        justify-content: space-evenly;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .portfolio-work-container{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 2em;
+    }
+}

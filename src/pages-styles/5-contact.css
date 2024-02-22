@@ -1,0 +1,158 @@
+:root{
+    --royal_blue:#4169E1;
+    --light_royal_blue:rgb(91, 126, 232);
+    --menu_color: #222222;
+}
+
+.contact{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
+}
+.contact-logo{
+    height: 2.5em;
+    margin: 2.3em 0 0 3.5em;
+}
+.agency-name{
+    color: white;
+    font-size: 1.3em;
+    margin: 0.35em 0 0 2.7em;
+}
+.contact-titles{
+    color: white;
+    font-size: 2em;
+    margin: 1em 0 0 1.5em;
+}
+.contact-description{
+    color: white;
+    margin: 1em 0 0 3em;
+}
+.contact-containers:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid white 2px;
+    border-width: 2px 0 0 0;
+    grid-column: 2/4;
+}
+.contact-icons{
+    width: 8em;
+    display: flex;
+    justify-content: space-between;
+}
+.social-icon{
+    height: 2em;
+}
+.social-icon:hover{
+    cursor: pointer;
+}
+.copyright{
+    color: white;
+    font-size: 1em;
+    margin: 0.5em 0 0 0;
+    text-align: center;
+}
+
+@media only screen and (max-width : 1000px) and (min-width : 700px){
+    .contact{
+        height: 45vh;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1.5fr 0.8fr;
+    }
+}
+@media only screen and (max-width : 699px) and (min-width : 450px){
+    .contact{
+        height: 45vh;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1.5fr 0.8fr;
+    }
+    .contact-logo{
+        height: 2em;
+        margin: 2.3em 0 0 1em;
+    }
+    .agency-name{
+        width: 1em;
+        color: white;
+        font-size: 1em;
+        margin: 0.35em 0 0 1em;
+    }
+    .contact-titles{
+        color: white;
+        font-size: 1.5em;
+        margin: 1.7em 0 0 0em;
+    }
+    .contact-description{
+        color: white;
+        margin: 1em 0 0 0em;
+    }
+}
+@media only screen and (max-width : 449px) and (min-width : 360px){
+    .contact{
+        height: 50vh;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1.5fr 0.8fr;
+    }
+    .contact-logo{
+        height: 2em;
+        margin: 2.3em 0 0 1em;
+    }
+    .agency-name{
+        width: 1em;
+        color: white;
+        font-size: 1em;
+        margin: 0.35em 0 0 1em;
+    }
+    .contact-titles{
+        color: white;
+        font-size: 1.2em;
+        margin: 1.8em 0 0 0em;
+    }
+    .contact-description{
+        color: white;
+        font-size: 0.8em;
+        margin: 1em 0 0 0em;
+    }
+}
+@media only screen and (max-width : 359px){
+    .contact{
+        height: 52vh;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1.5fr 0.8fr;
+    }
+    .contact-logo{
+        height: 2em;
+        margin: 2.3em 0 0 0.2em;
+    }
+    .agency-name{
+        width: 1em;
+        color: white;
+        font-size: 1em;
+        margin: 0.35em 0 0 0.2em;
+    }
+    .contact-titles{
+        color: white;
+        font-size: 1.2em;
+        margin: 1.8em 0 0 0em;
+    }
+    .contact-description{
+        color: white;
+        font-size: 0.8em;
+        margin: 1em 0 0 0em;
+    }
+}
