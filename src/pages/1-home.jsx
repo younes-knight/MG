@@ -20,7 +20,9 @@ function Home(){
                         story,experience and work, take a good look then give us 
                         a call if you are intrested or have any question.
                     </p>
-                    <button className="home-services" >services</button>
+                    <button className="home-services" >
+                        <a href="#services" style={{color: "white"}}>services</a>
+                    </button>
                 </div>
                 <img src="src/images/gg.jpg" alt="home picture" className='home-image' />
             </section>

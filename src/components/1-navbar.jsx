@@ -43,7 +43,9 @@ function Nav() {
                     <a href="#portfolio" className="navbar-link" onClick={opcl}>portfolio</a>
                     <a href="#contact" className="navbar-link" onClick={opcl}>contact</a>
                 </nav>
-                <button className="navbar-call" >lets talk</button>
+                <button className="navbar-call" >
+                    <a href="tel:0697133715" style={{color: "white"}}>lets talk</a>
+                </button>
             </header>
         </>
     )

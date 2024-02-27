@@ -8,7 +8,7 @@ function Portfolio(){
         {
             IS:'src/images/test.jpg',
             IN:'test',
-            T:'creative agency',
+            T:'ramy',
             ST:'full branding website/app',
             key:'unique'
         },
