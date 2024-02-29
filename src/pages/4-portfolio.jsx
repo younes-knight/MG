@@ -6,28 +6,28 @@ import { useInView } from 'react-intersection-observer'
 function Portfolio(){
     const cardData =[
         {
-            IS:'src/images/test.jpg',
-            IN:'test',
-            T:'ramy',
-            ST:'full branding website/app',
+            IS:'src/images/clinic.png',
+            IN:'clinic website',
+            T:'clinic website',
+            ST:'website for files dilevring',
             key:'unique'
         },
         {
-            IS:'src/images/experience.png',
+            IS:'src/images/coming soon.jpg',
             IN:'test',
-            T:'creative agencyyy',
+            T:'creative agency',
             ST:'full branding website/app',
             key:'unique1'
         },
         {
-            IS:'src/images/test.jpg',
-            IN:'test',
-            T:'creative agency',
-            ST:'full branding website/app',
+            IS:'src/images/chess brand.jpg',
+            IN:'club brand',
+            T:'club branding',
+            ST:'designing a club brand',
             key:'unique2'
         },
         {
-            IS:'src/images/test.jpg',
+            IS:'src/images/coming soon.jpg',
             IN:'test',
             T:'creative agency',
             ST:'full branding website/app',
@@ -36,28 +36,28 @@ function Portfolio(){
     ]
     const cardData1 =[
         {
-            IS:'src/images/test.jpg',
+            IS:'src/images/coming soon.jpg',
             IN:'test',
-            T:'creative',
+            T:'creative agency',
             ST:'full branding website/app',
             key:'unique'
         },
         {
-            IS:'src/images/experience.png',
+            IS:'src/images/coming soon.jpg',
             IN:'test',
-            T:'creative agencyyy',
+            T:'creative agency',
             ST:'full branding website/app',
             key:'unique1'
         },
         {
-            IS:'src/images/values.jpg',
+            IS:'src/images/coming soon.jpg',
             IN:'test',
             T:'creative agency',
             ST:'full branding website/app',
             key:'unique2'
         },
         {
-            IS:'src/images/test.jpg',
+            IS:'src/images/coming soon.jpg',
             IN:'test',
             T:'creative agency',
             ST:'full branding website/app',
@@ -66,35 +66,35 @@ function Portfolio(){
     ]
     const cardData2 =[
         {
-            IS:'src/images/test.jpg',
+            IS:'src/images/coming soon.jpg',
             IN:'test',
-            T:'nnn',
+            T:'creative agency',
             ST:'full branding website/app',
             key:'unique'
         },
         {
-            IS:'src/images/values.jpg',
+            IS:'src/images/coming soon.jpg',
             IN:'test',
-            T:'creative agencyyy',
+            T:'creative agency',
             ST:'full branding website/app',
             key:'unique1'
         },
         {
-            IS:'src/images/experience.png',
+            IS:'src/images/coming soon.jpg',
             IN:'test',
             T:'creative agency',
             ST:'full branding website/app',
             key:'unique2'
         },
         {
-            IS:'src/images/test.jpg',
+            IS:'src/images/coming soon.jpg',
             IN:'test',
             T:'creative agency',
             ST:'full branding website/app',
             key:'unique3'
         }
     ]
-    const [tab,setTab] =useState(cardData2);
+    const [tab,setTab] =useState(cardData);
     function changeTabs(id){
         if(id == 'all'){
             setTab(cardData);
